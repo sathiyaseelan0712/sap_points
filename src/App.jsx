@@ -4,7 +4,7 @@ import Signin from './components/signin/Signin';
 import Personalinfo from './components/student/Personalinfo';
 import AddUsersFromCSV from './components/adduser/admin';
 import { StudentProvider, StudentContext } from './context/StudentContext';
-import Staff_1 from './components/staff/staff_1';
+import Staff_1 from './components/staff/Staff_1';
 import Staff_2 from './components/staff/Staff_2';
 import Staff_3 from './components/staff/Staff_3';
 function App() {

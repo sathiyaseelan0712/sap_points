@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import MainPage from '../../Mainpage';
-import staff_1 from '../staff/staff_1';
+import Staff_1 from '../staff/Staff_1';
 import { StudentContext } from '../../context/StudentContext';
 import { useNavigate } from 'react-router-dom';
 import supabase from '../../database/Client';
@@ -14,7 +14,7 @@ function Personalinfo() {
   const [Roll_Number, setRoll_Number] = useState(null);
   const [Year, setYear] = useState(null);
   const page1 = () => {
-    navigate('/staff_1');
+    navigate('/Staff_1');
   }
   useEffect(() => {
     if (!Authenticated) {
