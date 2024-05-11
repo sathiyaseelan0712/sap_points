@@ -1,6 +1,10 @@
 import React, { useContext, useEffect, useState } from 'react';
 import MainPage from '../../Mainpage';
+<<<<<<< HEAD
 import Staff_1 from '../staff/Staff_1';
+=======
+import staff_1 from '../staff/Staff_1';
+>>>>>>> 98fbaa306a67652b03bc1295c3699c267ff90956
 import { StudentContext } from '../../context/StudentContext';
 import { useNavigate } from 'react-router-dom';
 import supabase from '../../database/Client';
